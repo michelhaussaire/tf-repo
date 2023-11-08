@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header, .caja1, .caja2, .caja3, .caja-contenedora,.caja6, footer{
+  text-align: center;
+  width: 100%;
+}
+
+.caja4, .caja5{
+  width: 95%;
+}
