@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paseo peludo express</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width:960px)" href="style-responsive.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#peluqueria">Peluqueria</a></li>
+              <li><a class="dropdown-item" href="#guarderia">Guarderia</a></li>
+              <li><a class="dropdown-item" href="#petshop">Petshop</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Unite</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="display-4 fw-semibold lh-1 py-5 text-center">Paseo Peludo Express</h1>
+  <div class="container col-xxl-8 px-4">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="img-container col-10 col-sm-8 col-lg-6">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/recursos/img/img-perro.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/recursos/img/img-perro1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/recursos/img/img-perro2.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-8 fw-light lh-1 mb-3">Cuidado de Mascotas en Tu Hogar</h2>
+        <p class="lead">Paseo peludo express es una empresa con más de 20 años de experiencia en el cuidado de mascotas.
+          Brindamos a nuestra respetada clientela servicios de Pet shop, Peluquería canina, y guarderia y cuidados a
+          domicilio. En 2016 decidimos anexar un servicio de Guardería. Brindamos hospedaje, entretenimiento, asistencia
+          veterinaria las 24 hs y cuidados especiales a las mascotas ancianas, cachorras o con tratamientos especiales
+          cuando sus dueños más lo necesitan. Paseo peludo express, una hectárea de puro entretenimiento para sus
+          mascotas!.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Comenzar ahora</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Habla con nosotros</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="servicios">
+    <h2 id="servicios">Servicios</h2>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" id="peluqueria" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne" >
+            Peluqueria y baño
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            La limpieza de los oídos evita posibles infecciones. Un cepillado de dientes previene enfermedades y evita
+            acumulación de sarro. El baño reduce la perdida de pelo y mantiene la piel sana y brillante. Cortar las uñas
+            asegura unas patas limpias y previene infecciones y posibles heridas.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" id="guarderia" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Guarderia
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Estar en espacios abiertos y en contacto con la naturaleza, le permite a tu mascota jugar y divertirse con
+            otros, pero, además, hace que ejerciten todo su cuerpo y esto trae grandes beneficios a su salud.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" id="petshop" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseThree">
+            Petshop
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Venta de productos para mascotas como alimentos, juguetes, snacks, cepillos, y accesorios para mascotas en
+            general.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nosotros" id="nosotros">
+    <h2>Nosotros</h2>
+    <div class="card-group">
+      <div class="card border rounded mx-1">
+        <img src="/recursos/img/img-man2.png" class="card-img-top py-3 px-3" alt="img-maxi">
+        <div class="card-body">
+          <h5 class="card-title py-3 px-3">Maxi - El Maestro del Estilo Caninos</h5>
+          <p class="card-text py-3 px-3">Con una pasión innata por los perros y un ojo agudo para el estilo, Maxi es nuestro
+            experto en cuidado y estilismo canino. Con años de experiencia en la industria, es conocido por su habilidad
+            para transformar incluso al perro más desaliñado en una obra maestra canina. Sus manos hábiles y su amor por
+            los animales hacen que cada cita en nuestra peluquería sea una experiencia relajante y estilizada para las
+            mascotas.</p>
+        </div>
+      </div>
+      <div class="card border rounded mx-1">
+        <img src="/recursos/img/img-woman1.png" class="card-img-top py-3 px-3" alt="img-brenda">
+        <div class="card-body">
+          <h5 class="card-title py-3 px-3">Brenda - El Corazón Cálido de la Guardería</h5>
+          <p class="card-text py-3 px-3">Brenda es la persona en la que confiamos para cuidar y entretener a nuestros amigos
+            peludos mientras sus dueños están ocupados. Con una sonrisa siempre lista y un amor incondicional por los
+            perros, Brenda garantiza que cada día en nuestra guardería sea emocionante, seguro y lleno de juegos. Su
+            compromiso con el bienestar y la felicidad de las mascotas es insuperable, y su cariño es evidente en cada
+            ladrido de emoción.</p>
+        </div>
+      </div>
+      <div class="card border rounded mx-1">
+        <img src="/recursos/img/img-man1.png" class="card-img-top py-3 px-3" alt="img-michel">
+        <div class="card-body">
+          <h5 class="card-title py-3 px-3">Michel - El Experto en Mascotas</h5>
+          <p class="card-text py-3 px-3">Cuando se trata de encontrar los productos y accesorios adecuados para tus mascotas,
+            Michel es la persona a la que debes recurrir. Con un profundo conocimiento de las necesidades de las
+            mascotas y una amplia gama de productos en el petshop, Michel se enorgullece de ayudar a los dueños a
+            encontrar todo lo que sus amigos peludos necesitan. Su amabilidad y disposición para brindar consejos hacen
+            que cada visita a nuestra tienda sea una experiencia educativa y agradable.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-12">
+          <div class="wrapper">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="contact-wrap">
+                  <h3 class="mb-4 text-center" id="contacto">Forma parte de nuestro equipo</h3>
+                  <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
+                  <div id="form-message-success" class="mb-4 w-100 text-center">
+                    Envianos un mensaje y nos pondremos en contacto
+                  </div>
+                  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                    <div class="row">
+                      <div class="col-md-12 my-1">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                        </div>
+                      </div>
+                      <div class="col-md-12 my-1">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12 my-1">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo">
+                        </div>
+                      </div>
+                      <div class="col-md-12 my-1">
+                        <div class="form-group">
+                          <textarea name="message" class="form-control" id="message" cols="30" rows="8"
+                            placeholder="Mensaje"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12 my-1">
+                        <div class="form-group">
+                          <input type="submit" value="Send Message" class="btn btn-primary">
+                          <div class="submitting"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="info col-lg-8 mb-5">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text">
+                        <p><span>Direccion:</span> 11 de abril 800 - Bahia Blanca, Buenos Aires</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text">
+                        <p><span>Telefono:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="dbox w-100 text-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text">
+                        <p><span>Email:</span> <a
+                            href="/cdn-cgi/l/email-protection#c2abaca4ad82bbadb7b0b1abb6a7eca1adaf"><span
+                              class="__cf_email__"
+                              data-cfemail="81e8efe7eec1f8eef4f3f2e8f5e4afe2eeec">[email&#160;protected]</span></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+  });
+  </script>
+</body>
+
+</html>
