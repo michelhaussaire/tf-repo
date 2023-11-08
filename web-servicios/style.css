@@ -1,0 +1,17 @@
+.servicios{
+  margin: 1rem 3rem;
+}
+
+.nosotros{
+  margin: 3rem 3rem;
+}
+
+.info{
+  margin: 3rem 3rem;
+}
+
+@media (max-width:960px) {
+  .img-container{
+    width: 100%;
+  }
+}
