@@ -1,0 +1,131 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c3c3c3;
+}
+
+h2 {
+  margin: 3rem;
+  text-align: center;
+  clear: both;
+}
+
+ul#nav-bar {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+ul#nav-bar li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+ul#nav-bar li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul#nav-bar {
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+li{
+  margin: 1rem 0;
+}
+
+.comida-nombre,
+.opinion-nombre {
+  font-weight: bold;
+}
+
+li#titulo-menu {
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+.sobre-nosotros img{
+  width: 30%;
+  margin-left: 1rem;
+}
+
+.sobre-nosotros-texto{
+  width: 50%;
+  float: right;
+  margin: 1rem; 
+  line-height: 2;
+  width : 50%;
+}
+
+.carta{
+  width: 100%;
+}
+
+.ensaladas img,
+.aves img {
+  margin: 1rem;
+}
+
+.menu-text {
+  margin: 1rem 2rem;
+  padding: 1.5rem;
+  width: 50%;
+  float: left;
+}
+
+.opiniones img {
+  margin: 1rem;
+}
+
+.texto-opiniones{
+  float: right;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 50%;
+}
+.opinion-nombre{
+  text-align: right;
+  width: 30%;
+}
+
+footer{
+  width: 100%;
+}
+
+.redes {
+  padding: 1rem;
+  text-align: left;
+}
+
+.redes-img {
+  margin: 1rem;
+  padding: 3rem 1rem;
+  width: 50%;
+  float: left;
+}
+
+.redes-img a {
+  margin: 1rem;
+}
+
+.red-whastapp {
+  margin: 1rem;
+  padding: 3rem 1rem;
+  width: 30%;
+  float: right;
+}
+
+p#diseno {
+  clear: both;
+  float: none;
+  text-align: center;
+  font-weight: bold;
+}
